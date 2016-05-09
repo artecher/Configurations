@@ -1,0 +1,26 @@
+Host bastion bastion-1.central-1.sparkv.nz
+ SendEnv LANG LC_*
+ ForwardAgent yes
+ User ethan.lee 
+ IdentityFile ~/.ssh/id_rsa.pub
+ IdentitiesOnly yes
+ Hostname bastion-1.central-1.sparkv.nz
+Host is1
+ Hostname configurator-1.dev-1.innerspark-1.sparkv.nz
+Host *.sparkv.nz !vpn*sparkv.nz
+ ProxyCommand ssh bastion -W %h:%p
+ StrictHostKeyChecking no
+ UserKnownHostsFile=/dev/null
+ User ethan.lee 
+ IdentitiesOnly yes
+ IdentityFile ~/.ssh/id_rsa.pub
+ ServerAliveInterval 60
+ Host aws
+ 	HostName ec2-52-63-246-215.ap-southeast-2.compute.amazonaws.com
+    User ec2-user
+    BatchMode yes
+    Ciphers arcfour,blowfish-cbc,aes128-ctr
+    IdentityFile ~/.ssh/jason_key.pem
+    # Generally compression over lan slows things down
+    Compression no
+    ServerAliveInterval 60

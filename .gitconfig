@@ -1,0 +1,23 @@
+[alias]
+	cm = commit
+	a  = add
+	aa = add .
+	st = status
+	pl = pull
+	ps = push
+	co = checkout
+	br = branch
+	df = diff
+[user]
+	name = ethan2014
+	email = ethan.lee@sparkventures.co.nz
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/ethanlee/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
