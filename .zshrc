@@ -98,7 +98,10 @@ alias isl="ionic serve -l"
 alias ib="ionic build"
 alias iba="ionic build android"
 alias ibi="ionic build ios"
-
+alias iri="ionic run ios"
+alias ira="ionic run android"
+alias iei="ionic emulate ios"
+alias iea="ionic emulate android"
 
 export NVM_DIR="/Users/ethanlee/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
