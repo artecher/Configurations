@@ -8,6 +8,7 @@
 	co = checkout
 	br = branch
 	df = diff
+	acm = !git add . && git commit
 [user]
 	name = ethan2014
 	email = ethan.lee@sparkventures.co.nz
