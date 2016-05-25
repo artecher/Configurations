@@ -85,6 +85,9 @@ source $ZSH/oh-my-zsh.sh
 alias gmock="gulp --mock"
 alias gap="gulp --apiary"
 alias gloc="gulp --local"
+alias gprod="gulp --prod"
+alias gs="gulp serve" 
+alias gb="gulp build"
 
 alias d="docker"
 alias dm="docker-machine"
