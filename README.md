@@ -1,6 +1,8 @@
 # Configurations
 
 ```
+clone {repo}
+cd Configurations
  ln -sf Configurations/karabiner-config/private.xml Library/Application\ Support/Karabiner
  ln -sf Configurations/.ssh/config .ssh/config
  ln -sf Configurations/.gitconfig .gitconfig
