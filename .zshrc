@@ -86,6 +86,7 @@ alias gmock="gulp --mock"
 alias gap="gulp --apiary"
 alias gloc="gulp --local"
 alias gprod="gulp --prod"
+alias gbe="gulp backend"
 alias gs="gulp serve" 
 alias gb="gulp build"
 
