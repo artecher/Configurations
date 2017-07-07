@@ -10,8 +10,8 @@
 	df = diff
 	acm = !git add . && git commit
 [user]
-	name = ethan2014
-	email = ethan.lee@sparkventures.co.nz
+	name = ethan.artecher
+	email = ethanleenz@gmail.com
 [push]
 	default = simple
 [core]
@@ -24,3 +24,8 @@
 	trustExitCode = true
 [init]
 	templatedir = ~/Configurations/.git_template
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

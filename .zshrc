@@ -1,3 +1,5 @@
+source ~/learn.util/users/eli/learns/learn.sh
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -109,5 +111,7 @@ alias iea="ionic emulate android"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
+export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
+export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
+
+export PATH="$HOME/.yarn/bin:$PATH"
