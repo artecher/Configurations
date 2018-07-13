@@ -11,11 +11,11 @@
 	acm = !git add . && git commit
 [user]
 	name = ethan.artecher
-	email = ethanleenz@gmail.com
+	email = ethan.li@blackboard.com
 [push]
 	default = simple
 [core]
-	excludesfile = /Users/ethanlee/.gitignore_global
+	excludesfile = /Users/eli/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 

@@ -55,7 +55,7 @@ plugins=(git docker)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ethanlee/Library/Android/sdk/platform-tools"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ethanlee/Library/Android/sdk/platform-tools:/Users/eli/Library/Android/sdk/platform-tools/"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
