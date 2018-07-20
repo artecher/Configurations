@@ -8,3 +8,9 @@ clone {this repo}
  ln -sf ~/Configurations/.gitignore_global ~/.gitignore_global
  ln -sf ~/Configurations/.zshrc ~/.zshrc
 ```
+
+# Change the default KeyRepeat and InitialKeyRepeat
+```
+defaults write -g InitialKeyRepeat -int 5 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 0.5 # normal minimum is 2 (30 ms)
+```
