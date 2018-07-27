@@ -10,8 +10,8 @@
 	df = diff
 	acm = !git add . && git commit
 [user]
-	name = ethan.artecher
-	email = ethan.li@blackboard.com
+	name = Li Weixun
+	email = liweixun@caicloud.io
 [push]
 	default = simple
 [core]
@@ -29,3 +29,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[credential]
+	helper = cache --timeout=3600000
