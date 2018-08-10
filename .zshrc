@@ -107,6 +107,14 @@ alias ira="ionic run android"
 alias iei="ionic emulate ios"
 alias iea="ionic emulate android"
 
+alias y="yarn"
+alias ya="yarn add"
+alias yad="yarn add --dev"
+alias yt="yarn test"
+alias yb="yarn build"
+alias ys="yarn start"
+alias yi="yarn init"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
