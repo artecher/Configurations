@@ -10,8 +10,8 @@
 	df = diff
 	acm = !git add . && git commit
 [user]
-	name = Li Weixun
-	email = liweixun@caicloud.io
+	name = Ethan Li
+	email = ethan.li@ef.com
 [push]
 	default = simple
 [core]

@@ -121,3 +121,13 @@ export PATH="/usr/local/opt/postgresql@9.4/bin:$PATH"
 export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+#[[ -f /Users/ethan/ef-serverless-functions/ media-handler/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/ethan/ef-serverless-functions/ media-handler/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+#[[ -f /Users/ethan/ef-serverless-functions/ media-handler/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/ethan/ef-serverless-functions/ media-handler/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+#[[ -f /Users/ethan/ef-serverless-functions/ media-handler/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/ethan/ef-serverless-functions/ media-handler/node_modules/tabtab/.completions/slss.zsh
