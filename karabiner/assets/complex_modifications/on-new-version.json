@@ -32,6 +32,32 @@
             },
             "to": [{ "key_code": "right_arrow" }],
             "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": { "mandatory": ["left_control"] }
+            },
+            "to": [
+                {
+                    "key_code": "spacebar",
+                    "modifiers": ["left_command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "spacebar",
+                "modifiers": { "mandatory": ["left_command"] }
+            },
+            "to": [
+                {
+                    "key_code": "spacebar",
+                    "modifiers": ["left_control"]
+                }
+            ],
+            "type": "basic"
         }
     ]
 }
